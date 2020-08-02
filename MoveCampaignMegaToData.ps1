@@ -1,0 +1,1 @@
+﻿get-childitem -path "~\Downloads\campaign_mega*.csv" | Move-Item -Destination "C:\Users\SeanD\PlayCode\PA\Campaign\Data"
