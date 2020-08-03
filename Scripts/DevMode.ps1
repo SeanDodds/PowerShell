@@ -11,4 +11,3 @@ get-childitem -path $FullSourceData | Move-Item -Destination $PA_Campaign_Sample
 #Move Storage to Development 
 get-childitem -path $FullCampaign_Storage | Move-Item -Destination $PA_Campaign_Data
 #FPS1
-#FPS2
